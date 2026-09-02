@@ -1,0 +1,96 @@
+/* .door{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 70px;
+}
+.deliver{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.basket{
+    width: 20%;
+}
+.agent{
+    width: 20%;
+}
+.mobile{
+    width: 20%;
+}
+.line1{
+    margin-top: 20px;
+    height: 90px;
+    width: 1px;
+    background-color: black;
+}
+.line2{
+    margin-top: 20px;
+     height: 90px;
+    width: 1px;
+    background-color: black;
+}
+.line3{
+    margin-top: 20px;
+     height: 90px;
+    width: 1px;
+    background-color: black;
+} */
+
+
+.container {
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.icon {
+  font-size: 55px;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.item p {
+  margin-top: 8px;
+  font-size:15;
+  color: #222;
+}
+
+.line {
+  width: 1px;
+  height: 90px;
+  background: #999;
+}
+
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .line {
+    width: 80%;
+    height: 1px;
+  }
+}

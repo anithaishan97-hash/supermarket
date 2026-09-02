@@ -1,0 +1,14 @@
+.pastas{
+  background-image: url(../assets/pastas.avif);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.superdeal{
+  background-image: url(../assets/cereal.avif);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

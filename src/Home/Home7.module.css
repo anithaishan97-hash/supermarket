@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets//menmobileimg.avif);
+     height: 90vh;
+     width: auto;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+    }
+    .corn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 90px;
+        line-height: 1.2;
+    }
+    .left{
+        background-image: url(../assets/corn.avif);
+        height: 90vh;
+          width: 23%;
+         background-repeat: no-repeat;
+         background-position: center;
+          background-size: cover;
+          border-radius: 10px;
+        
+    
+    }
+    .right{
+        width: 55%;
+        padding: 30px;
+        margin-bottom: 90px;
+
+    }
+    .great{
+        display: flex;
+        gap: 10px;
+    }
+ .storeText {
+  font-size: 10px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.storeText span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.great11 {
+ display: flex;
+  align-items: center;
+  gap: 10px;
+
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px; 
+}
+ .storeText1 {
+  font-size: 10px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.storeText1 span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.great12 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ background: black;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+}

@@ -1,0 +1,228 @@
+/* .container {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  gap: 30px;
+}
+
+.leftBanner {
+  flex: 2;
+  min-height: 250px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 60px;
+}
+
+.rightBanner {
+  flex: 1;
+  min-height: 650px;
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+
+.badge {
+  position: absolute;
+  top: 70px;
+  right: 130px;
+  width: 180px;
+  height: 180px;
+  background: red;
+  border-radius: 50%;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: rotate(-15deg);
+}
+
+.content {
+  margin-top: 140px;
+}
+
+.smallTitle {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.bigTitle {
+  font-size: 100px;
+  line-height: 0.9;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.desc {
+  font-size: 24px;
+  max-width: 600px;
+  line-height: 1.8;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 18px 45px;
+  border: none;
+  border-radius: 40px;
+  background: red;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content2 {
+  margin-top: 180px;
+}
+
+.week {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.discount {
+  font-size: 130px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.discount span {
+  font-size: 50px;
+}
+
+.cleaning {
+  font-size: 55px;
+  margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .bigTitle {
+    font-size: 60px;
+  }
+
+  .discount {
+    font-size: 80px;
+  }
+} */
+
+
+.con {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.wra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 90%;
+}
+
+.wins {
+  width: 80%;
+  padding: 60px;
+  position: relative;
+  line-height: 1.2;
+  background: #b9e8e8; /* temporary */
+}
+
+.badge {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+
+  width: 150px;
+  height: 150px;
+
+  background: red;
+  color: white;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+
+  transform: rotate(-15deg);
+}
+
+.smallTitle {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.bigTitle {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 12px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.cleaning {
+  width: 40%;
+  padding: 20px;
+  line-height: 1.2;
+  background: #f7efd9; /* temporary */
+}
+
+.week {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.offer {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.offer span {
+  font-size: 25px;
+}
+
+.cleanText {
+  font-size: 30px;
+  font-weight: bold;
+}
+.wins{
+  background-image: url(../assets/wines.avif);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cleaning{
+  background-image: url(../assets/cleaning.avif);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

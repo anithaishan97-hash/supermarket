@@ -1,0 +1,39 @@
+.day{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shop{
+    /* border: 1px solid red; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.everyday{
+    background-image: url(../../assets/about1img2.avif);
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.everyday img{
+    height: 100%;
+    width: 100%;
+}
+.daily{
+    /* border: 2px solid red; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+
+}

@@ -1,0 +1,34 @@
+.container{
+  /* border:1 px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.locations{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+.para{
+  /* border: 1px solid red; */
+  padding: 10px;
+  
+}
+.carditems{
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.card{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}

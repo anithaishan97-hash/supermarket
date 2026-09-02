@@ -1,0 +1,83 @@
+
+.section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section1 {
+  margin-bottom: 10px;
+}
+
+.grabgo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #d9d9d9;
+}
+
+.card {
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+
+  min-height: 410px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  transition: 0.3s;
+  background: #fff;
+}
+
+.card:nth-child(4n) {
+  border-right: none;
+}
+
+.card img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  transition: 0.3s;
+}
+
+.card p {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.card:hover img {
+  transform: scale(1.08);
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.card {
+  position: relative;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 220px;
+  height: 220px;
+
+  border-radius: 50%;
+  background: #f4e8c8;
+
+  z-index: 1;
+}
+
+.card img {
+  position: relative;
+  z-index: 2;
+}
