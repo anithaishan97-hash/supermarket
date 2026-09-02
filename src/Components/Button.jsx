@@ -1,5 +1,4 @@
 import React from 'react'
-import Allproduct from '../Pages/Allproduct/Allproduct'
 
 
 const Button = () => {
